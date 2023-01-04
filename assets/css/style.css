@@ -7,10 +7,11 @@
 /* Started Styles */
 
 body {
-    font-family: "sans-serif";
-    font-size: 14px;
+    font-family: "Inter";
+    font-size: 16px;
     font-style: normal;
     font-weight: normal;
+    color: black;
 }
 
 .container {
@@ -24,5 +25,52 @@ body {
     max-width: 100%;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* General Classes */
 
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__img {
+    width: 174px;
+    height: 48px;
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 40px;
+}
+
+.header__container {
+    justify-content: space-between;
+}
+
+.header__link-list > *:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header__link {
+    color: black;
+    font-weight: 500;
+    line-height: 145%;
+}
+
+.header__download-btn {
+    font-weight: 500;
+    line-height: 150%;
+    min-width: 152px;
+    padding: 16px 24px;
+    border: 2px solid #0DB760;
+    border-radius: 12px;
+    color: black;
+}
