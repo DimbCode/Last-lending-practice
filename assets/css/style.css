@@ -1,0 +1,28 @@
+/* Imports */
+
+@import "ZeroingOut.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600&display=swap');
+
+/* Started Styles */
+
+body {
+    font-family: "sans-serif";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1160px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    max-width: 100%;
+}
+
+/* General Classes */
+
