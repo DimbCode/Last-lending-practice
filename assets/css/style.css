@@ -23,6 +23,7 @@ body {
 
 .wrapper {
     max-width: 100%;
+    overflow: hidden;
 }
 
 img {
@@ -335,4 +336,94 @@ img {
     font-size: 14px;
     line-height: 150%;
     color: #323433;
+}
+
+/* Projects */
+
+.f {
+    height: 500px;
+}
+
+.projects {
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+
+.projects__container {
+    justify-content: space-between;
+}
+
+.projects__column_text {
+    max-width: 355px;
+}
+
+.projects__column_items {
+    align-items: flex-start;
+    position: absolute;
+    right: -153px;
+    gap: 30px;
+}
+
+.profects__current-item {
+}
+
+.projects__current-item-img {
+    width: 325px;
+    height: 547px;
+}
+
+.projects__items {
+}
+
+.projects__items-wrap {
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.projects__control-buttons {
+    justify-content: flex-start;
+    margin-top: 42px;
+}
+
+.projects__paginations-buttons {
+    margin-right: 170px;
+}
+
+.projects__paginations-buttons > *:not(:last-child) {
+    margin-right: 24px;
+}
+
+.projects__pagination-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+.projects__pagination-btn::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #C4C4C4;
+}
+
+.projects__pagination-btn_active {
+    padding: 8px;
+    border: 3px solid #C4C4C4;
+}
+
+.projects__pagination-btn_active::before {
+    background: #2ABF74;
+}
+.projects__arrow-buttons {
+    gap: 21px;
+}
+
+.projects__arrow-btn {
+    background: none;
+}
+
+.projects__arrow-btn-img {
 }
