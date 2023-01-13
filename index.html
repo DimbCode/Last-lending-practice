@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -15,12 +16,12 @@
 
         <!-- Header -->
 
-        <header class="header">
+        <header class="header" data-aos="flip-down" data-aos-duration="1000">
             <div class="container flex header__container">
 
                 <section class="header__column">
                     <div class="logo header__logo">
-                        <a href="#" class="logo__link">
+                        <a href="#home" class="logo__link">
                             <img src="assets/img/logo.png" alt="M Design" class="logo__img">
                         </a>
                     </div>
@@ -30,22 +31,22 @@
                     <nav class="header__navigation">
                         <ul class="flex header__link-list">
                             <li class="header__link-item">
-                                <a href="#" class="header__link">
+                                <a href="#about-us" class="header__link">
                                     About
                                 </a>
                             </li>
                             <li class="header__link-item">
-                                <a href="#" class="header__link">
+                                <a href="#skills" class="header__link">
                                     Skills
                                 </a>
                             </li>
                             <li class="header__link-item">
-                                <a href="#" class="header__link">
+                                <a href="#portfolio" class="header__link">
                                     Portfolio
                                 </a>
                             </li>
                             <li class="header__link-item">
-                                <a href="#" class="header__link">
+                                <a href="#testimonials" class="header__link">
                                     Testimonial
                                 </a>
                             </li>
@@ -70,10 +71,10 @@
 
             <!-- Home -->
 
-            <section class="home">
+            <section class="home flex" id="home" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
                 <div class="container flex home__container">
 
-                    <section class="offer home__column home__column_text">
+                    <section class="offer home__column home__column_text" data-aos="fade-right" data-aos-duration="500" data-aos-delay="1500">
                         <span class="welcome-text offer__welcome">
                             Welcome
                         </span>
@@ -98,21 +99,21 @@
                         </div>
                     </section>
 
-                    <section class="home__column">
+                    <section class="home__column" data-aos="flip-left" data-aos-duration="500" data-aos-delay="2000">
                         <img src="assets/img/home-img.jpg" alt="" class="home__img">
                         <div class="home__contacts flex">
-                            <span class="home__contacts-title">
+                            <span class="home__contacts-title" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2000">
                                 Follow me on:
                             </span>
-                            <hr class="home__contacts-line">
+                            <hr class="home__contacts-line" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2200">
                             <div class="home__contacts-list flex">
-                                <a href="#" class="social-btn home__contact-link">
+                                <a href="#" class="social-btn home__contact-link" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2400">
                                     <img src="assets/img/facebook-icon.svg" alt="facebook" class="social-btn__icon">
                                 </a>
-                                <a href="#" class="social-btn home__contact-link">
+                                <a href="#" class="social-btn home__contact-link" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2600">
                                     <img src="assets/img/instagram-icon.svg" alt="instagram" class="social-btn__icon">
                                 </a>
-                                <a href="#" class="social-btn home__contact-link">
+                                <a href="#" class="social-btn home__contact-link" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2800">
                                     <img src="assets/img/linkedin-icon.svg" alt="linkedin" class="social-btn__icon">
                                 </a>
                             </div>
@@ -131,7 +132,7 @@
 
                     <div class="flex info__items">
 
-                        <article class="info-item info__item">
+                        <article class="info-item info__item" data-aos="fade-down" data-aos-duration="1000">
                             <div class="info-item__content-wrap">
                                 <h3 class="info-item__title">
                                     80+
@@ -142,7 +143,7 @@
                             </div> 
                         </article>
 
-                        <article class="info-item info__item">
+                        <article class="info-item info__item" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
                             <div class="info-item__content-wrap">
                                 <h3 class="info-item__title">
                                     200+
@@ -153,7 +154,7 @@
                             </div>
                         </article>
 
-                        <article class="info-item info__item">
+                        <article class="info-item info__item" data-aos="fade-down" data-aos-duration="1000" data-aos-duration="1000" data-aos-delay="400">
                             <div class="info-item__content-wrap">
                                 <h3 class="info-item__title">
                                     99+
@@ -173,10 +174,10 @@
 
             <!-- Skills -->
 
-            <section class="skills">
+            <section class="skills" id="skills">
                 <div class="container flex skills__container">
 
-                    <section class="offer skills__column skills__column_text">
+                    <section class="offer skills__column skills__column_text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                         <span class="welcome-text offer__welcome">
                             My Skills
                         </span>
@@ -203,7 +204,7 @@
 
                             <div class="skills__items-column">
 
-                                <article class="skills-item skills__item">
+                                <article class="skills-item skills__item" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
                                     <img src="assets/img/skills-img1.svg" alt="" class="skills-item__img">
                                     <h4 class="skills-item__title">
                                         Visual Design
@@ -214,7 +215,7 @@
                                     </p>
                                 </article>
 
-                                <article class="skills-item skills__item">
+                                <article class="skills-item skills__item" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
                                     <img src="assets/img/skills-img2.svg" alt="" class="skills-item__img">
                                     <h4 class="skills-item__title">
                                         UX Research
@@ -229,7 +230,7 @@
 
                             <div class="skills__items-column">
 
-                                <article class="skills-item skills__item">
+                                <article class="skills-item skills__item" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="800">
                                     <img src="assets/img/skills-img3.svg" alt="" class="skills-item__img">
                                     <h4 class="skills-item__title">
                                         Design Prototype
@@ -252,10 +253,10 @@
 
             <!-- Projects -->
 
-            <section class="projects">
+            <section class="projects" id="portfolio">
                 <div class="container flex projects__container">
 
-                    <section class="offer projects__column projects__column_text">
+                    <section class="offer projects__column projects__column_text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                         <span class="welcome-text offer__welcome">
                             Portfolio
                         </span>
@@ -279,21 +280,21 @@
                     <section class="flex projects__column projects__column_items">
 
                         <div class="profects__current-item">
-                            <img src="assets/img/project1.png" alt="" class="projects__current-item-img">
+                            <img src="assets/img/project1.png" alt="" class="projects__current-item-img" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
                         </div>
 
                         <div class="projects__items">
                             <div class="flex projects__items-wrap">
-                                <img src="assets/img/project2.png" alt="" class="projects__item-img">
-                                <img src="assets/img/project3.png" alt="" class="projects__item-img">
+                                <img src="assets/img/project2.png" alt="" class="projects__item-img" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
+                                <img src="assets/img/project3.png" alt="" class="projects__item-img" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
                             </div>
-                            <div class="flex projects__control-buttons">
+                            <div class="flex projects__control-buttons" data-aos="fade-left" data-aos-duration="500">
                                 <div class="projects__paginations-buttons">
                                     <button class="projects__pagination-btn projects__pagination-btn_active"></button>
                                     <button class="projects__pagination-btn"></button>
                                     <button class="projects__pagination-btn"></button>
                                 </div>
-                                <div class="flex projects__arrow-buttons">
+                                <div class="flex projects__arrow-buttons" data-aos="fade-up" data-aos-duration="500">
                                     <button class="projects__arrow-btn">
                                         <svg width="31" height="24" viewBox="0 0 31 24" class="projects__arrow-btn-img" fill="none" stroke="black" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_205_471)">
@@ -333,16 +334,16 @@
 
             <!-- About-us -->
             
-            <section class="about-us">
+            <section class="about-us" id="about-us">
                 <div class="about-us__container-wrap">
                     <div class="container">
 
                         <section class="offer flex about-us__offer">
                             <div class="about-us__offer-content">
-                                <span class="welcome-text offer__welcome">
+                                <span class="welcome-text offer__welcome" data-aos="fade-right" data-aos-duration="1000">
                                     Reviews
                                 </span>
-                                <h2 class="title-mini offer__title">
+                                <h2 class="title-mini offer__title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                                     Our Customer Say 
                                     Something
                                     <mark class="title-mini_green">
@@ -382,7 +383,7 @@
 
                         <section class="slider about-us__slider">
 
-                                    <article class="slider-item slider__item">
+                                    <article class="slider-item slider__item" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
                                         <img src="assets/img/stars-icon.svg" alt="" class="slider-item__stars-img">
                                         <p class="slider-item__message">
                                             We will also facilitate the business marketing of these products with our SEO experts so that they become a ready to use website & help sell product from company
@@ -400,7 +401,7 @@
                                         </div>
                                     </article>
 
-                                    <article class="slider-item slider__item">
+                                    <article class="slider-item slider__item" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
                                         <img src="assets/img/stars-icon.svg" alt="" class="slider-item__stars-img">
                                         <p class="slider-item__message">
                                             We will also facilitate the business marketing of these products with our SEO experts so that they become a ready to use website & help sell product from company
@@ -418,7 +419,7 @@
                                         </div>
                                     </article>
 
-                                    <article class="slider-item slider__item">
+                                    <article class="slider-item slider__item" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
                                         <img src="assets/img/stars-icon.svg" alt="" class="slider-item__stars-img">
                                         <p class="slider-item__message">
                                             We will also facilitate the business marketing of these products with our SEO experts so that they become a ready to use website & help sell product from company
@@ -447,12 +448,12 @@
             
             <!-- Contact -->
 
-            <section class="contact">
+            <section class="contact" id="testimonials">
                 <div class="container">
 
                     <section class="contact__row flex">
 
-                        <div class="offer contact__offer">
+                        <div class="offer contact__offer" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
                             <span class="welcome-text offer__welcome">
                                 Contact
                             </span>
@@ -475,7 +476,7 @@
 
                             <div class="contact__items">
 
-                                <article class="contact-item contact__item">
+                                <article class="contact-item contact__item" data-aos="fade-right" data-aos-duration="500" data-aos-delay="200">
                                     <div class="contact-item__icon-section">
                                         <img src="assets/img/contact-item-icon1.svg" alt="Phone" class="contact-item__icon">
                                     </div>
@@ -489,7 +490,7 @@
                                     </div>
                                 </article>
 
-                                <article class="contact-item contact__item">
+                                <article class="contact-item contact__item" data-aos="fade-right" data-aos-duration="500" data-aos-delay="250">
                                     <div class="contact-item__icon-section">
                                         <img src="assets/img/contact-item-icon2.svg" alt="Email" class="contact-item__icon">
                                     </div>
@@ -503,7 +504,7 @@
                                     </div>
                                 </article>
 
-                                <article class="contact-item contact__item">
+                                <article class="contact-item contact__item" data-aos="fade-right" data-aos-duration="500" data-aos-delay="300">
                                     <div class="contact-item__icon-section">
                                         <img src="assets/img/contact-item-icon3.svg" alt="Adress" class="contact-item__icon">
                                     </div>
@@ -523,7 +524,7 @@
 
                         <section class="contact__column">
 
-                            <form action="#" class="contact__form flex">
+                            <form action="#" class="contact__form flex" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                                 <div class="contact__inputs-wrap">
                                     <input type="text" placeholder="Full name" class="input contact__input contact__input_1">
                                     <input type="text" placeholder="Your email" class="input contact__input contact__input_2">
@@ -554,7 +555,7 @@
 
         <!-- Footer -->
 
-        <footer class="footer">
+        <footer class="footer" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="-100">
             <div class="container flex footer__container">
 
                 <section class="footer__column">
@@ -571,16 +572,16 @@
 
                 <section class="footer__column">
                     <div class="flex footer__socials">
-                        <a href="#" class="social-btn footer__social-btn">
+                        <a href="#" class="social-btn footer__social-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="-100" data-aos-delay="200">
                             <img src="assets/img/facebook-icon.svg" alt="" class="social-btn__icon">
                         </a>
-                        <a href="#" class="social-btn footer__social-btn">
+                        <a href="#" class="social-btn footer__social-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="-100" data-aos-delay="400">
                             <img src="assets/img/twitter-icon.svg" alt="" class="social-btn__icon">
                         </a>
-                        <a href="#" class="social-btn footer__social-btn">
+                        <a href="#" class="social-btn footer__social-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="-100" data-aos-delay="600">
                             <img src="assets/img/linkedin-icon.svg" alt="" class="social-btn__icon">
                         </a>
-                        <a href="#" class="social-btn footer__social-btn">
+                        <a href="#" class="social-btn footer__social-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="-100" data-aos-delay="800">
                             <img src="assets/img/instagram-icon.svg" alt="" class="social-btn__icon">
                         </a>
                     </div>
@@ -595,6 +596,10 @@
 
     <!-- Wrapper End -->
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="assets/js/index.js"></script>
 </body>
 </html>
